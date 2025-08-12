@@ -10,7 +10,7 @@
     </header>
 
     <main class="caja-de-componentes">
-
+      <GaleriaDeFotos />
     </main>
 
   </div>
@@ -18,8 +18,13 @@
 
 
 <script>
+import GaleriaDeFotos from '@/components/GaleriaDeFotos.vue';
+
 export default {
-  name: 'VistaPrincipal'
+  name: 'VistaPrincipal',
+  components: {
+    GaleriaDeFotos
+  }
 }
 </script>
 
