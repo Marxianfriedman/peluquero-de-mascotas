@@ -13,6 +13,7 @@
       <GaleriaDeFotos />
     </main>
 
+    <PieDePagina />
   </div>
 </template>
 
@@ -20,11 +21,12 @@
 <script>
 import GaleriaDeFotos from '@/components/GaleriaDeFotos.vue';
 import BotonDeContacto from '@/components/BotonDeContacto.vue';
+import PieDePagina from '@/components/PieDePagina.vue';
 
 export default {
   name: 'VistaPrincipal',
   components: {
-    GaleriaDeFotos, BotonDeContacto
+    GaleriaDeFotos, BotonDeContacto, PieDePagina
   }
 }
 </script>
