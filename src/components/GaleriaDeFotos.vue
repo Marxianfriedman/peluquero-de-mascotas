@@ -1,6 +1,6 @@
 <template>
   <section class="galeria">
-    <h2 class="titulo-galeria">Nuestros Trabajos Artesanales</h2>
+    <h2 class="titulo-galeria">Muestras del trabajo de Harold</h2>
     <p class="descripcion-galeria">Transformación sin explotación capitalista</p>
 
     <div class="contenedor-galeria">
@@ -93,13 +93,13 @@ export default {
 
 .titulo-galeria {
   font-size: clamp(1.8rem, 4vw, 2.5rem);
-  color: #333;
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 
 .descripcion-galeria {
   font-size: clamp(1rem, 2vw, 1.2rem);
-  color: #666;
+  color: #ffffff;
   margin-bottom: 2rem;
 }
 

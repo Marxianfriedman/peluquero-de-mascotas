@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
 .boton {
-  background-color: #ff6b6b;
+  background-color: #17d6ad;
   color: white;
   border: none;
   padding: 1rem 2rem;

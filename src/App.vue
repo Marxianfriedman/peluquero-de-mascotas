@@ -31,7 +31,7 @@ body {
 .contenedor {
   min-height: 100vh;
   width: 100%;
-  background: url(/public/Fondo.jpg) no-repeat center center fixed;
+  background: url(/public/fondo2.jpg) no-repeat center center fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
