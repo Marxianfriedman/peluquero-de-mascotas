@@ -5,7 +5,7 @@
         <h1 class="titulo">Harold el Peluquero de Mascotas</h1>
         <p class="subtitulo">Peluquero artesanal, nada de explotacion capitalista</p>
 
-        <button class="boton">Contacta a Harold</button>
+        <BotonDeContacto />
       </div>
     </header>
 
@@ -19,11 +19,12 @@
 
 <script>
 import GaleriaDeFotos from '@/components/GaleriaDeFotos.vue';
+import BotonDeContacto from '@/components/BotonDeContacto.vue';
 
 export default {
   name: 'VistaPrincipal',
   components: {
-    GaleriaDeFotos
+    GaleriaDeFotos, BotonDeContacto
   }
 }
 </script>
