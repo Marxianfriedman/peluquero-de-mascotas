@@ -82,7 +82,7 @@ export default {
     },
     enviarFormulario() {
       const mensajeWhatsApp = this.generarMensajeWhatsApp()
-      const numeroHarold = '573104057097'
+      const numeroHarold = '573118062774'
 
       window.open(
         `https://wa.me/${numeroHarold}?text=${encodeURIComponent(mensajeWhatsApp)}`,
